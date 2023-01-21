@@ -2,7 +2,7 @@
 <root>
     <color>
         <NodeTree>
-            <NodeName>lcm cta unlimitedCT eyeCare hbm ccbb wpCalib sunlightScreen maxBrightness gabb dcBacklight</NodeName>
+            <NodeName>lcm cta unlimitedCT eyeCare hbm ccbb wpCalib sunlightScreen maxBrightness gabb</NodeName>
         </NodeTree>
         <lcm>
             <lcmParamName>lcm_num lcm_array</lcmParamName>
@@ -27,8 +27,8 @@
             <unlimitedCTParamName>strength default cold warm uiParamMin paramMax dimmingTime dimmingStep</unlimitedCTParamName>
             <strength>55</strength>
             <default>255 255 255</default>
-            <cold>233 240 255</cold>
-            <warm>255 240 221</warm>
+            <cold>244 247 255</cold>
+            <warm>255 249 241</warm>
             <uiParamMin>100</uiParamMin>
             <paramMax>255</paramMax>
             <dimmingTime>50</dimmingTime>
@@ -39,10 +39,10 @@
             <nativeCTIndex>0</nativeCTIndex>
             <eyeCareIndex>-3 -5 -8 -13 -14 -15 -17 -18 -19 -20 -21 -23 -24 -25 -27 -28 -29 -30 -32 -33 -34 -35 -36 -38 -39 -42 -43 -45 -48 -53 -59 -63</eyeCareIndex>
             <eyeCareRestoreTime>25</eyeCareRestoreTime>
-            <GCoeff>-0.0000000134 0.00023703 -0.068283544</GCoeff>
-            <BCoeff>-0.00000000811 0.000276964 -0.615384878</BCoeff>
-            <maxCCT>7150</maxCCT>
-            <minCCT>4350</minCCT>
+            <GCoeff>-0.000000016 0.000262453 -0.12002964</GCoeff>
+            <BCoeff>-0.00000000249 0.000217486 -0.46019951</BCoeff>
+            <maxCCT>6950</maxCCT>
+            <minCCT>4200</minCCT>
         </eyeCare>
         <hbm>
             <hbmParamName>hbmTrigerLux hbmExitThreshold hbmKeepOnMaxTime hbmRestTime maxBL closeDelay</hbmParamName>
@@ -105,32 +105,18 @@
         <gabb>
             <gabbParamName>luxTable regTable0 regTable1 regTable2 regTable3 regTable4 regTable5 regTable6 crcCmd0 crcCmd1 crcCmd2 crcCmd3 crcCmd4</gabbParamName>
             <luxTable>10 30 50 128 256 1024 2047</luxTable>
-            <regTable0>227 5 0 4 246 1 2 3 243 14 248 255 231 1 245 238 242 0 255 255 255</regTable0>
-            <regTable1>225 6 0 5 245 1 2 4 242 14 248 255 231 1 245 238 240 0 255 255 255</regTable1>
-            <regTable2>223 9 0 6 245 2 2 6 242 14 249 255 231 2 244 238 242 0 255 255 255</regTable2>
-            <regTable3>211 9 1 7 243 2 2 6 211 16 249 255 231 3 239 238 242 0 255 255 255</regTable3>
-            <regTable4>207 9 1 9 239 2 3 6 207 16 249 255 231 4 238 238 242 0 255 255 255</regTable4>
-            <regTable5>204 10 1 10 237 3 4 7 207 19 248 251 231 4 238 238 242 0 255 255 255</regTable5>
-            <regTable6>203 11 1 11 236 3 5 8 207 20 250 250 231 5 238 238 242 0 255 255 255</regTable6>
+            <regTable0>216 4 2 28 250 0 0 3 245 24 245 251 220 3 232 218 238 1 255 250 254</regTable0>
+            <regTable1>216 5 2 26 218 0 0 6 245 26 247 251 232 7 223 235 236 2 255 250 254</regTable1>
+            <regTable2>214 6 3 27 218 0 1 4 245 28 250 251 232 8 223 234 236 2 255 250 254</regTable2>
+            <regTable3>212 7 3 27 218 0 2 4 245 28 249 251 233 9 223 237 235 3 255 250 254</regTable3>
+            <regTable4>210 6 4 27 218 0 3 4 245 28 248 251 233 10 223 238 233 5 255 250 254</regTable4>
+            <regTable5>206 9 4 32 229 0 3 6 245 33 248 251 234 13 223 238 233 5 255 250 254</regTable5>
+            <regTable6>210 10 5 37 233 0 4 7 245 37 249 251 232 15 221 238 233 5 255 250 254</regTable6>
             <crcCmd0>00 00 39 00 00 00 00 00 02 81 91</crcCmd0>
             <crcCmd1>00 00 39 00 00 00 00 00 03 F0 5A 5A</crcCmd1>
             <crcCmd2>00 00 39 00 00 00 00 00 02 B1 00</crcCmd2>
             <crcCmd3>00 00 39 00 00 00 00 00 02 B0 16</crcCmd3>
             <crcCmd4>00 00 39 01 00 00 00 00 03 F0 A5 A5</crcCmd4>
         </gabb>
-        <dcBacklight>
-            <dcBacklightParamName>minBL DCBLThreshold DCBLStartPcc DCBLStep DCBLCoeff0 DCBLCoeff1 DcCmd0 DcCmd1 DcCmd2 DcCmd3 DcCmd4</dcBacklightParamName>
-            <minBL>5</minBL>
-            <DCBLThreshold>610</DCBLThreshold>
-            <DCBLStartPcc>0.022</DCBLStartPcc>
-            <DCBLStep>0.002</DCBLStep>
-            <DCBLCoeff0>2.40323</DCBLCoeff0>
-            <DCBLCoeff1>2.82365</DCBLCoeff1>
-            <DcCmd0>00 00 39 00 00 00 00 00 02 81 91</DcCmd0>
-            <DcCmd1>00 00 39 00 00 00 00 00 03 F0 5A 5A</DcCmd1>
-            <DcCmd2>00 00 39 00 00 00 00 00 02 B1 00</DcCmd2>
-            <DcCmd3>00 00 39 00 00 00 00 00 02 B0 16</DcCmd3>
-            <DcCmd4>00 00 39 01 00 00 00 00 03 F0 A5 A5</DcCmd4>
-        </dcBacklight>
     </color>
 </root>
