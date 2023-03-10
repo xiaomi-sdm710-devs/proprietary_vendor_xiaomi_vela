@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Action</key>
+		<integer>0</integer>
+		<key>FacePart</key>
+		<array>
+			
+
+			
+	            <!-- 唇彩 -->
+            <dict>
+                <key>Type</key>
+                <string>S</string>
+                <key>LocateMethod</key>
+                <integer>2</integer>
+                <key>Path</key>
+                <string>realtime_mouth_close.png</string>
+                <key>AdditionalTexture</key>
+                <string>makeup3.png</string>
+                <key>ORGBA</key>
+                <string>32,0,0,0,255</string>
+                <key>Rectangle</key>
+                <string>360,795,291,132</string>
+                <key>FilterType</key>
+                <integer>56</integer>
+                <key>MUType</key>
+                <integer>1</integer>
+                <key>Operation</key>
+                <integer>7</integer>
+                <key>Gender</key>
+                <string>F</string>
+			</dict>
+			
+			<!-- 滤镜 -->
+			<dict>
+                <key>Type</key>
+                <string>F</string>
+                <key>FilterType</key>
+                <integer>50</integer>
+                <key>ORGBA</key>
+                <string>70,0,0,0,255</string>
+                <key>AdditionalTexture</key>
+                <string>filter.png</string>
+            </dict>
+			<!-- <dict>
+				<key>Type</key>
+				<string>CommonFilter</string>
+				<key>FilterPoolPath</key>
+				<string>filter/FilterPool.plist</string>
+				<key>FilterRulePath</key>
+				<string>filter/FilterRule.plist</string>
+			</dict> -->
+			<dict>
+				<key>Type</key>
+				<string>Facula</string>
+				<key>materialPath</key>
+				<string>rainbow.png</string>
+				<!-- 陀螺仪 -->
+				<key>needGyroscopeMotion</key>
+				<integer>1</integer>
+				<key>gyroscopeMotionSpeed</key>
+				<string>0.8</string>
+				<!-- 惯性运动 -->
+				<key>needInertialMotion</key>
+				<integer>0</integer>
+				<key>inertialMotionSpeed</key>
+				<string>0.3</string>
+				<!-- 自动运动 -->
+				<key>needAutoMotion</key>
+				<integer>1</integer>
+				<key>autoMotionSpeed</key>
+				<string>0.08</string>
+			</dict>
+			
+		</array>
+		<key>ID</key>
+		<integer>3191</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+		<key>Sound</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

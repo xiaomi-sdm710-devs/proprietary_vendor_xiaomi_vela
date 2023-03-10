@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+            <!-- 眼线 -->
+            <dict>
+                <key>ORGBA</key>
+                <string>20,0,0,0,255</string>
+                <key>MUType</key>
+                <integer>3</integer>
+                <key>FilterType</key>
+                <integer>4</integer>
+                <key>Path</key>
+                <string>980_yxy_syx.png</string>
+                <key>LocateMethod</key>
+                <integer>7</integer>
+                <key>Operation</key>
+                <integer>13</integer>
+                <key>Type</key>
+                <string>S</string>
+                <key>Rectangle</key>
+                <string>579,494,175,92</string>
+                <key>Gender</key>
+                <string>F</string>
+                <key>EyeShadowType</key>
+                <integer>1</integer>                    
+            </dict>
+
+             <dict>
+                <key>ORGBA</key>
+                <string>20,0,0,0,255</string>
+                <key>MUType</key>
+                <integer>3</integer>
+                <key>FilterType</key>
+                <integer>4</integer>
+                <key>Path</key>
+                <string>980_yxz_syx.png</string>
+                <key>LocateMethod</key>
+                <integer>6</integer>
+                <key>Operation</key>
+                <integer>12</integer>
+                <key>Type</key>
+                <string>S</string>
+                <key>Rectangle</key>
+                <string>260,502,175,91</string>
+                <key>Gender</key>
+                <string>F</string>
+                <key>EyeShadowType</key>
+                <integer>1</integer>                   
+            </dict>
+
+
+            <!-- 眼影 -->
+             <dict>
+                <key>ORGBA</key>
+                <string>63,0,0,0,255</string>
+                <key>MUType</key>
+                <integer>3</integer>
+                <key>FilterType</key>
+                <integer>4</integer>
+                <key>Path</key>
+                <string>980_yyz_syy.png</string>
+                <key>LocateMethod</key>
+                <integer>6</integer>
+                <key>Operation</key>
+                <integer>10</integer>
+                <key>Type</key>
+                <string>S</string>
+                <key>Rectangle</key>
+                <string>225,453,247,180</string>
+                <key>Gender</key>
+                <string>F</string>
+                <key>EyeShadowType</key>
+                <integer>1</integer>                  
+            </dict>
+            <dict>
+                <key>ORGBA</key>
+                <string>63,0,0,0,255</string>
+                <key>MUType</key>
+                <integer>3</integer>
+                <key>FilterType</key>
+                <integer>4</integer>
+                <key>Path</key>
+                <string>980_yyz_xyy.png</string>
+                <key>LocateMethod</key>
+                <integer>6</integer>
+                <key>Operation</key>
+                <integer>10</integer>
+                <key>Type</key>
+                <string>S</string>
+                <key>Rectangle</key>
+                <string>225,453,247,180</string>
+                <key>Gender</key>
+                <string>F</string>
+            </dict> 
+            <dict>
+				<key>Type</key>
+				<string>S</string>
+				<key>LocateMethod</key>
+				<integer>7</integer>
+				<key>Path</key>
+				<string>980_yyy_syy.png</string>
+				<key>ORGBA</key>
+				<string>63,0,0,0,255</string>
+				<key>Rectangle</key>
+				<string>533,444,256,187</string>
+				<key>FilterType</key>
+				<integer>4</integer>
+				<key>MUType</key>
+				<integer>3</integer>
+				<key>Operation</key>
+				<integer>11</integer>
+                <key>Gender</key>
+                <string>F</string>
+                <key>EyeShadowType</key>
+                <integer>1</integer>                  
+            </dict>
+            <dict>
+                <key>Type</key>
+                <string>S</string>
+                <key>LocateMethod</key>
+                <integer>7</integer>
+                <key>Path</key>
+                <string>980_yyy_xyy.png</string>
+                <key>ORGBA</key>
+                <string>63,0,0,0,255</string>
+                <key>Rectangle</key>
+                <string>533,444,256,187</string>
+                <key>FilterType</key>
+                <integer>4</integer>
+                <key>MUType</key>
+                <integer>3</integer>
+                <key>Operation</key>
+                <integer>11</integer>
+                <key>Gender</key>
+                <string>F</string>
+            </dict> 
+              
+            <dict>
+                <key>Type</key>
+                <string>S</string>
+                <key>LocateMethod</key>
+                <integer>6</integer>
+                <key>Path</key>
+                <string>eye_mask_left.png</string>
+                <key>AdditionalTexture</key>
+                <string>173_mt.png</string>
+                <key>ORGBA</key>
+                <string>25,0,0,0,255</string>
+                <key>Rectangle</key>
+                <string>241,494,207,119;</string>
+                <key>NeedMask</key>
+                <integer>1</integer>
+                <key>FilterType</key>
+                <integer>2</integer>
+                <key>MUType</key>
+                <integer>3</integer>
+                <key>Operation</key>
+                <integer>16</integer>
+                <key>Gender</key>
+                <string>F</string>
+            </dict>
+            <dict>
+                <key>Type</key>
+                <string>S</string>
+                <key>LocateMethod</key>
+                <integer>7</integer>
+                <key>Path</key>
+                <string>eye_mask_right.png</string>
+                <key>AdditionalTexture</key>
+                <string>173_mt.png</string>
+                <key>ORGBA</key>
+                <string>25,0,0,0,255;</string>
+                <key>Rectangle</key>
+                <string>566,487,198,116;</string>
+                <key>NeedMask</key>
+                <integer>1</integer>
+                <key>FilterType</key>
+                <integer>2</integer>
+                <key>MUType</key>
+                <integer>3</integer>
+                <key>Operation</key>
+                <integer>17</integer>
+                <key>Gender</key>
+                <string>F</string>
+            </dict>
+
+
+            
+
+
+
+            <!-- 腮红 -->
+                <dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>LocateMethod</key>
+					<integer>2</integer>
+					<key>Path</key>
+					<string>g_sh1.png</string>
+					<key>ORGBA</key>
+					<string>70,255,148,103,255</string>
+					<key>Rectangle</key>
+					<string>97,492,825,354</string>
+					<key>FilterType</key>
+					<integer>3</integer>
+					<key>MUType</key>
+					<integer>4</integer>
+					<key>Operation</key>
+					<integer>0</integer>
+                    <key>Gender</key>
+                <string>F</string>
+				</dict>
+
+
+            <!-- 眉毛 -->
+            <dict>
+                <key>ORGBA</key>
+                <string>28,0,0,0,255</string>
+                <key>MUType</key>
+                <integer>2</integer>
+                <key>FilterType</key>
+                <integer>4</integer>
+                <key>Path</key>
+                <string>980_mmy.png</string>
+                <key>LocateMethod</key>
+                <integer>9</integer>
+                <key>Operation</key>
+                <integer>1</integer>
+                <key>Type</key>
+                <string>S</string>
+                <key>Rectangle</key>
+                <string>547,417,252,87</string>
+                <key>Gender</key>
+                <string>F</string>
+            </dict>
+            <dict>
+                <key>ORGBA</key>
+                <string>28,0,0,0,255</string>
+                <key>MUType</key>
+                <integer>2</integer>
+                <key>FilterType</key>
+                <integer>4</integer>
+                <key>Path</key>
+                <string>980_mmz.png</string>
+                <key>LocateMethod</key>
+                <integer>8</integer>
+                <key>Operation</key>
+                <integer>0</integer>
+                <key>Type</key>
+                <string>S</string>
+                <key>Rectangle</key>
+                <string>214,422,252,87</string>
+                <key>Gender</key>
+                <string>F</string>
+            </dict>
+			
+            
+		<!-- 滤镜 -->
+			<dict>
+                <key>Type</key>
+                <string>F</string>
+                <key>FilterType</key>
+                <integer>55</integer>
+                <key>ORGBA</key>
+                <string>100,0,0,0,255</string>
+                <key>AdditionalTexture</key>
+                <string>filter.png</string>
+            </dict>
+			
+			
+            <!-- 唇彩 -->
+            <dict>
+                <key>Type</key>
+                <string>S</string>
+                <key>LocateMethod</key>
+                <integer>2</integer>
+                <key>Path</key>
+                <string>realtime_ycz_mask_close.png</string>
+                <key>AdditionalTexture</key>
+                <string>makeup2.png</string>
+                <key>ORGBA</key>
+                <string>80,0,0,0,255</string>
+                <key>Rectangle</key>
+                <string>360,795,291,132</string>
+                <key>FilterType</key>
+                <integer>56</integer>
+                <key>MUType</key>
+                <integer>1</integer>
+                <key>Operation</key>
+                <integer>7</integer>
+                <key>isCapture</key>
+                <integer>1</integer>
+                <key>Gender</key>
+                <string>F</string>
+            </dict>
+
+
+		<!-- 鼻子阴影 -->
+			<dict>
+					<key>Type</key>
+					<string>S</string>
+					<key>LocateMethod</key>
+					<integer>2</integer>
+					<key>Path</key>
+					<string>01_gg.png</string>
+					<key>AdditionalTexture</key>
+					<string>ltjzt_gg.png</string>
+					<key>ORGBA</key>
+					<string>80,255,209,216,255</string>
+					<key>Rectangle</key>
+					<string>117,165,752,911</string>
+					<key>FilterType</key>
+					<integer>51</integer>
+					<key>MUType</key>
+					<integer>4</integer>
+					<key>Operation</key>
+					<integer>4</integer>
+                    <key>Gender</key>
+                    <string>F</string>
+				</dict>
+        
+        <!-- 五官阴影 -->
+                <dict>
+                    <key>Type</key>
+                    <string>S</string>
+                    <key>LocateMethod</key>
+                    <integer>2</integer>
+                    <key>Path</key>
+                    <string>04_by.png</string>
+                    <key>AdditionalTexture</key>
+                    <string>ltjzt_yy.png</string>
+                    <key>ORGBA</key>
+                    <string>30,0,0,0,255</string>
+                    <key>Rectangle</key>
+                    <string>304,394,407,411</string>
+                    <key>FilterType</key>
+                    <integer>51</integer>
+                    <key>MUType</key>
+                    <integer>4</integer>
+                    <key>Operation</key>
+                    <integer>5</integer>
+                    <key>Gender</key>
+                    <string>F</string>
+                </dict>         
+
+				
+			
+		</array>
+		<key>ID</key>
+		<integer>200004</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+	</dict>
+</array>
+</plist>

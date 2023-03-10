@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+
+			<!-- 非机主男生廋脸 -->
+            <dict>
+                    <key>Type</key>
+                    <string>Facelift</string>
+                    <key>FacemeshType</key>
+                    <string>2109</string>
+                    <key>FacemeshParameters</key>
+                    <string>-0.2,0,0,0.3</string>
+                    <key>ValueRange</key>
+                    <string>0.0,-0.2,0.0,0.3</string>
+                    <key>ControlPosition</key>
+                    <string>0,3</string>
+                    <key>LiftControlType</key>
+                    <integer>1</integer>
+            </dict>
+            <dict>
+                    <key>Type</key>
+                    <string>Facelift</string>
+                    <key>FacemeshType</key>
+                    <string>2110</string>
+                    <key>FacemeshParameters</key>
+                    <string>0.15,0,0,0.15,0</string>
+                    <key>ValueRange</key>
+                    <string>0.0,0.15,0.0,0.15</string>
+                    <key>ControlPosition</key>
+                    <string>0,3</string>
+                    <key>LiftControlType</key>
+                    <integer>1</integer>
+                </dict>
+
+
+			
+			<dict>
+				<key>Type</key><string>FV_SPMLS</string>
+				<key>PointCount</key><integer>28</integer>
+				<key>OperationPath</key><string>operation_2.plist</string>
+				<key>VtDataPath</key><string>vt2.data</string>
+				<key>Degree</key><string>230</string>
+				<key>DegreeRange</key><string>0,230</string>
+				<key>LiftControlType</key><integer>1</integer>
+				<key>Power</key>
+            	<string>1.0</string>
+				<key>ProtectedEdge</key>
+				<integer>1</integer>
+				 <key>faceType</key>
+                <integer>0</integer>
+			</dict>
+
+			
+
+		</array>
+		<key>ID</key>
+		<integer>200004</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+	</dict>
+</array>
+</plist>

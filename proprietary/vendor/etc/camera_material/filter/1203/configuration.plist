@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>KiraV2</string>
+				<key>MaterialTexture</key>
+				<string>starLight.png</string>
+				<key>CenterMaterialTexture</key>
+				<string>starCenter.png</string>
+				<key>MaterialWH</key>
+				<string>200,200</string>
+				<key>StarThreshold</key>
+				<string>40.0</string>
+				<key>StarSizeThreshold</key>
+				<string>80.0</string>
+				<key>NeedCorrect</key>
+				<string>1</string>
+				<key>MaxSize</key>
+				<string>0.8</string>
+				<key>MaxThreshold</key>
+				<string>170</string>
+				<key>MinThreshold</key>
+				<string>100</string>
+				<key>MiddleMinSize</key>
+				<string>0.4</string>
+				<key>MiddleMaxSize</key>
+				<string>0.5</string>
+				<key>MaxStarNum</key>
+				<string>5</string>
+				<key>MinStarNum</key>
+				<string>5</string>
+				<key>StarNum</key>
+				<string>30</string>
+				<key>SoveRadius</key>
+				<string>20.0</string>
+				<key>SoveThreshold</key>
+				<string>0.6,0.50</string>
+				<key>GridParam</key>
+				<string>150.0,10.0</string>
+				<key>FrontSoveThreshold</key>
+				<string>0.4,0.5</string>
+				<key>needCopyOrgTexture</key><integer>1</integer>
+			</dict>
+			
+			 <!-- 唇彩 -->
+            <dict>
+                <key>Type</key>
+                <string>S</string>
+                <key>LocateMethod</key>
+                <integer>2</integer>
+                <key>Path</key>
+                <string>realtime_mouth_close.png</string>
+                <key>AdditionalTexture</key>
+                <string>makeup4.png</string>
+                <key>ORGBA</key>
+                <string>40,0,0,0,255</string>
+                <key>Rectangle</key>
+                <string>360,795,291,132</string>
+                <key>FilterType</key>
+                <integer>56</integer>
+                <key>MUType</key>
+                <integer>1</integer>
+                <key>Operation</key>
+                <integer>7</integer>
+                <key>Gender</key>
+                <string>F</string>
+            </dict>			
+			
+			<!-- 偏色效果 -->
+			<dict>
+                <key>Type</key>
+                <string>ColorOffset</string>
+                <!-- 模糊程度 -->
+                <key>BlurOffset</key>
+                <string>4.0</string>
+                <!-- 模糊开关 -->
+                <key>BlurAlpha</key>
+                <string>1.0</string>
+                <!-- 错色开关 -->
+                <key>ColorOffsetAlpha</key>
+                <string>1.0</string>
+            </dict>
+			
+            <dict>
+				<key>Type</key><string>FaceMask</string>
+				<key>faceMaskPath1</key><string>facemask1.png</string>
+				<key>faceMaskPath2</key><string>facemask2.png</string>
+				<key>MaskFilterType</key><integer>0</integer>
+			</dict>
+			
+            <dict>
+                <key>Type</key>
+                <string>F</string>
+                <key>FilterType</key>
+                <integer>50</integer>
+                <key>ORGBA</key>
+                <string>80,0,0,0,255</string>
+                <key>AdditionalTexture</key>
+                <string>filter.png</string>
+            </dict>
+		</array>
+	</dict>
+</array>
+</plist>

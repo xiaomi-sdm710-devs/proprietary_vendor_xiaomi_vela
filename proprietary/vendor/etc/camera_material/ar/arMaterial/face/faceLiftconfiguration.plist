@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+
+			<!-- <dict>
+				<key>Type</key>
+				<string>PR</string>
+			</dict> -->
+
+			<!-- 眼睛 大眼 -->
+			<dict>
+				<key>Type</key><string>Facelift</string>
+				<key>FacemeshType</key>
+				<string>2402</string>
+				<key>FacemeshParameters</key>
+				<string>0.26,0.49,0,-0.04,0.23,0.05,0.33,1.5</string>
+				 <key>ControlPosition</key>
+                  <string>7</string>
+				<key>LiftControlType</key>
+				<integer>0</integer>
+				<key>ValueRange</key>
+                <string>0.0,1.5</string>
+			</dict>
+
+			
+			<!-- 发际线 -->
+			<dict>
+				<key>Type</key>
+				<string>Facelift</string>
+				<key>FacemeshType</key>
+				<string>2112</string>
+				<key>FacemeshParameters</key>
+				<string>1</string>
+				<key>ValueRange</key>
+				<string>-0.5,0.6;</string>
+				<key>ControlPosition</key>
+				<string>0</string>
+				<key>LiftControlType</key>
+				<integer>13</integer>
+			</dict>
+
+			
+			<!-- 缩鼻3-->
+			<dict>
+				<key>Type</key><string>Facelift</string>
+				<key>FacemeshType</key><integer>2110</integer>
+				<key>FacemeshParameters</key><string>0.70,0.32,0.80,0.00,0.0;</string>
+				<key>ValueRange</key>
+                <string>0.0,0.75,0.0,0.32,0.0,0.8,0.0,0.0</string>
+			    <key>ControlPosition</key>
+                <string>0,1,2,4</string>
+			    <key>LiftControlType</key>
+            	<integer>3</integer>
+			</dict>
+
+			<!-- 颧骨-->
+			<dict>
+				<key>ControlPosition</key>
+				<string>0</string>
+				<key>FacemeshParameters</key>
+				<string>0.60,0.00,0.00,0.00,0.76,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.76,0.00,0.00,0.00,0.00,0.00,0.00,0.36,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.36,0.00,0.00,0.00;</string>
+				<key>FacemeshType</key>
+				<integer>2199</integer>
+				<key>LiftControlType</key>
+				<integer>16</integer>
+				<key>Type</key>
+				<string>Facelift</string>
+				<key>ValueRange</key>
+				<string>0.0,0.47</string>
+			</dict>
+
+			<!-- 下巴 -->
+			<dict>
+				<key>Type</key><string>Facelift</string>
+				<key>FacemeshType</key><integer>2199</integer>
+				<key>FacemeshParameters</key><string>0.20,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.48,0.38,0.46,0.29,0.46,0.38,0.48,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.08,0.11,0.06,0.07,0.11,0.26,-0.09,0.26,0.11,0.07,0.06,0.11,0.08,0.00,0.00,0.00,0.00,0.00,0.00;</string>
+				<key>ControlRange</key>
+				<string>0.0,0.5</string>
+				<key>LiftControlType</key>
+				<integer>2</integer>
+				<key>ValueRange</key>
+				<string>0.2,0.0</string>
+				<key>ControlPosition</key>
+				<string>0</string>
+			</dict>
+
+			<dict>
+				<key>Type</key><string>Facelift</string>
+				<key>FacemeshType</key><integer>2193</integer>
+				<key>FacemeshParameters</key><string>0.75,0.28,0.20,0.24,0.19,0.04,0.04,0.08,0.03;</string>
+				<key>ControlRange</key>
+				<string>0.0,0.5</string>
+				<key>LiftControlType</key>
+				<integer>2</integer>
+				<key>ValueRange</key>
+				<string>1.0,0.0</string>
+				<key>ControlPosition</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>Type</key><string>Facelift</string>
+				<key>FacemeshType</key><integer>2199</integer>
+				<key>FacemeshParameters</key><string>0.25,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.48,0.38,0.46,0.24,0.46,0.38,0.48,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.08,0.11,0.22,0.07,0.16,0.41,0.06,0.41,0.16,0.07,0.22,0.11,0.08,0.00,0.00,0.00,0.00,0.00,0.00;</string>
+				<key>ControlRange</key>
+				<string>0.5,1.0</string>
+				<key>LiftControlType</key>
+				<integer>2</integer>
+				<key>ValueRange</key>
+				<string>0.0,0.2</string>
+				<key>ControlPosition</key>
+				<string>0</string>
+			</dict>
+			<dict>
+				<key>Type</key><string>Facelift</string>
+				<key>FacemeshType</key><integer>2193</integer>
+				<key>FacemeshParameters</key><string>0.65,0.23,0.27,0.13,0.27,-0.02,-0.06,-0.01,-0.11;</string>
+				<key>ControlRange</key>
+				<string>0.5,1.0</string>
+				<key>LiftControlType</key>
+				<integer>2</integer>
+				<key>ValueRange</key>
+				<string>0.0,0.75</string>
+				<key>ControlPosition</key>
+				<string>0</string>
+			</dict>
+
+			
+
+		
+
+		</array>
+		<key>ID</key>
+		<integer>200004</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+	</dict>
+</array>
+</plist>

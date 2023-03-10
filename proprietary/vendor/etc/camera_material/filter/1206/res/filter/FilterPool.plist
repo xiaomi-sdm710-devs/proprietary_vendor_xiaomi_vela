@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<array>
+		<dict>
+			<key>Name</key><string>faceFilter2</string>
+			<key>VSPath</key><string>Shaders/ig.vs</string>
+			<key>FSPath</key><string>Shaders/ig.fs</string>
+			
+			<key>GenIndex</key><integer>1</integer>
+			<!--
+			-->
+			<key>Params</key>
+			<array>
+				<dict>
+					<key>Key</key><string>rainbowTex</string>
+					<key>DataType</key><string>image</string>
+					<key>ImagePath</key><string>Materials/29.png</string>
+				</dict>
+				<dict>
+					<key>Key</key><string>rainbowTex2</string>
+					<key>DataType</key><string>image</string>
+					<key>ImagePath</key><string>Materials/30.png</string>
+				</dict>
+				<dict>
+					<key>Key</key><string>uPosStar</string>
+					<key>DataType</key><string>vec2</string>
+					<key>Value</key><string>0.35,0.34</string>
+				</dict>
+				<dict>
+					<key>Key</key><string>uPosEnd</string>
+					<key>DataType</key><string>vec2</string>
+					<key>Value</key><string>0.85,0.75</string>
+				</dict>
+				<dict>
+					<key>Key</key><string>speed</string>
+					<key>DataType</key><string>float</string>
+					<key>Value</key><string>28.0</string>
+				</dict>
+				
+				<dict>
+					<key>Key</key><string>xPosition</string>
+					<key>DataType</key><string>float</string>
+					<key>Value</key><string>0.043868</string>
+				</dict>
+				<dict>
+					<key>Key</key><string>vertBrightness</string>
+					<key>DataType</key><string>float</string>
+					<key>Value</key><string>1.0</string>
+				</dict>
+				<dict>
+					<key>Key</key><string>vertOpacity</string>
+					<key>DataType</key><string>float</string>
+					<key>Value</key><string>0.3</string>
+				</dict>
+				<dict>
+					<key>Key</key><string>horizOpacity</string>
+					<key>DataType</key><string>float</string>
+					<key>Value</key><string>0.014694</string>
+				</dict>
+				
+			</array>
+		</dict>
+	</array>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+	 		<dict>
+				<key>Type</key>
+				<string>F</string>
+				<key>FilterType</key>
+				<integer>55</integer>
+				<key>ORGBA</key>
+				<string>100,0,0,0,255</string>
+				<key>AdditionalTexture</key>
+				<string>OriginalLookupTable.png</string>
+				<key>AWBFilterRoot</key>
+				<string>/system/etc/camera_material/mtawb/filter/</string>
+				<key>AWBKernelRoot</key>
+				<string>/system/etc/camera_material/mtawb/kernel/</string>
+				<key>AWBFilter</key>
+				<integer>1</integer>
+
+			</dict>
+
+		</array>
+		<key>ID</key>
+		<integer>200004</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+	</dict>
+</array>
+</plist>

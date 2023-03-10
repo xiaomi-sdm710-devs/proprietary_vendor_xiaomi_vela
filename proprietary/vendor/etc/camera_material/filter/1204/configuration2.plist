@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+
+
+			
+			<dict>
+				<key>Type</key><string>3DScene</string>
+				<key>needCopyOrgTexture</key><integer>1</integer>
+				<key>SceneRange</key><string>-1000.0,1000.0,1000.0,-1000.0,1000.0,-1000.0;</string>
+				<key>ParticleEmitterInfo</key>
+				<array>
+
+				
+					<dict>
+						<key>EmitterID</key><integer>1</integer>
+						<key>BlendType</key><integer>0</integer>
+						<key>BlendMode</key><string>770,771;</string>
+						<key>TriggerType</key><integer>0</integer>
+						<key>InitialType</key><integer>0</integer>
+						<!-- 初始粒子数量 -->
+						<key>InitialNumber</key><integer>1000</integer>
+						<key>SubordinationType</key><integer>-1</integer>
+						<key>SubordinationNumber</key><integer>0</integer>
+						<key>SubIsProTri</key><integer>0</integer>
+						<key>SubTriPro</key><integer>0.000000</integer>
+						<key>RefreshType</key><integer>0</integer>
+						<key>GenerationEmitterID</key><integer>-1</integer>
+						<key>RefreshEmitterID</key><integer>-1</integer>
+						<key>DeathEmitterID</key><integer>-1</integer>
+						<key>FollowGyroscope</key><integer>1</integer>
+						<key>SpriteAnimated</key><integer>1</integer>
+						<key>SpriteLooped</key><integer>1</integer>
+						<key>Path</key><string>hexagon.png</string>
+						<key>SpriteFrameInfo</key><string>8,5,40,0;</string>
+						<key>SpriteFrameDuration</key><integer>40</integer>
+						<key>RotationPerParticleSpeedRange</key><string>0.000000,0.000000;</string>
+						<key>EnergyRange</key><string>2200,3200;</string>
+						<!-- 最大粒子数量 -->
+						<key>ParticleCountMAX</key><integer>3000</integer>
+						<!-- 每次粒子发射数量 -->
+						<key>EmissionRate</key><integer>900</integer>
+						<key>DefaultSize</key><string>30.000000,30.000000;</string>
+						<key>SizeStartRange</key><string>1.000000,1.000000;</string>
+						<key>SizeEndRange</key><string>1.000000,1.000000;</string>
+						<key>ColorStart</key><string>1.000000,1.000000,1.000000,0.600000;</string>
+						<key>ColorStartVariance</key><string>0.000000,0.000000,0.000000,0.000000;</string>
+						<key>ColorEnd</key><string>1.000000,1.000000,1.000000,0.600000;</string>
+						<key>ColorEndVariance</key><string>0.000000,0.000000,0.000000,0.000000;</string>
+						<key>PositionIsRandomRotate</key><integer>1</integer>
+						<key>PositionRandomRotateAxis</key><string>0.000000,1.000000,0.000000;</string>
+						<key>Position</key><string>0.000000,0.000000,0.000000;</string>
+						<key>PositionVariance</key><string>1000.000000,1000.000000,1000.000000;</string>
+						<key>Velocity</key><string>0.000000,-150.000000,0.000000;</string>
+						<key>VelocityVariance</key><string>-80.000000,-20.000000,0.000000;</string>
+						<key>Acceleration</key><string>0.000000,0.000000,0.000000;</string>
+						<key>AccelerationVariance</key><string>0.000000,0.000000,0.000000;</string>
+						<key>RotationSpeedRange</key><string>0.000000,0.000000;</string>
+						<key>RotationAxis</key><string>0.000000,1.000000,0.000000;</string>
+						<key>RotationAxisVariance</key><string>0.000000,0.000000,0.000000;</string>
+					</dict>
+
+					<dict>
+						<key>EmitterID</key><integer>1</integer>
+						<key>BlendType</key><integer>0</integer>
+						<key>BlendMode</key><string>770,771;</string>
+						<key>TriggerType</key><integer>0</integer>
+						<key>InitialType</key><integer>0</integer>
+						<key>InitialNumber</key><integer>1000</integer>
+						<key>SubordinationType</key><integer>-1</integer>
+						<key>SubordinationNumber</key><integer>0</integer>
+						<key>SubIsProTri</key><integer>0</integer>
+						<key>SubTriPro</key><integer>0.000000</integer>
+						<key>RefreshType</key><integer>0</integer>
+						<key>GenerationEmitterID</key><integer>-1</integer>
+						<key>RefreshEmitterID</key><integer>-1</integer>
+						<key>DeathEmitterID</key><integer>-1</integer>
+						<key>FollowGyroscope</key><integer>1</integer>
+						<key>SpriteAnimated</key><integer>1</integer>
+						<key>SpriteLooped</key><integer>1</integer>
+						<key>Path</key><string>square.png</string>
+						<key>SpriteFrameInfo</key><string>8,5,40,0;</string>
+						<key>SpriteFrameDuration</key><integer>40</integer>
+						<key>RotationPerParticleSpeedRange</key><string>0.000000,0.000000;</string>
+						<key>EnergyRange</key><string>2200,3200;</string>
+						<key>ParticleCountMAX</key><integer>3000</integer>
+						<key>EmissionRate</key><integer>900</integer>
+						<key>DefaultSize</key><string>30.000000,30.000000;</string>
+						<key>SizeStartRange</key><string>1.000000,1.000000;</string>
+						<key>SizeEndRange</key><string>1.000000,1.000000;</string>
+						<key>ColorStart</key><string>1.000000,1.000000,1.000000,0.600000;</string>
+						<key>ColorStartVariance</key><string>0.000000,0.000000,0.000000,0.000000;</string>
+						<key>ColorEnd</key><string>1.000000,1.000000,1.000000,0.600000;</string>
+						<key>ColorEndVariance</key><string>0.000000,0.000000,0.000000,0.000000;</string>
+						<key>PositionIsRandomRotate</key><integer>1</integer>
+						<key>PositionRandomRotateAxis</key><string>0.000000,1.000000,0.000000;</string>
+						<key>Position</key><string>0.000000,0.000000,0.000000;</string>
+						<key>PositionVariance</key><string>1000.000000,1000.000000,1000.000000;</string>
+						<key>Velocity</key><string>0.000000,-150.000000,0.000000;</string>
+						<key>VelocityVariance</key><string>-80.000000,-20.000000,0.000000;</string>
+						<key>Acceleration</key><string>0.000000,0.000000,0.000000;</string>
+						<key>AccelerationVariance</key><string>0.000000,0.000000,0.000000;</string>
+						<key>RotationSpeedRange</key><string>0.000000,0.000000;</string>
+						<key>RotationAxis</key><string>0.000000,1.000000,0.000000;</string>
+						<key>RotationAxisVariance</key><string>0.000000,0.000000,0.000000;</string>
+					</dict>
+
+				</array>
+			</dict>
+ 
+			<dict>
+				<key>Type</key><string>FaceMask</string>
+				<key>faceMaskPath1</key><string>facemask1.png</string>
+				<key>faceMaskPath2</key><string>facemask2.png</string>
+				<key>normalMask</key><string>mask.png</string>
+				<key>MaskFilterType</key><integer>1</integer>
+			</dict>
+			
+            <!-- 唇彩 -->
+            <dict>
+                <key>Type</key>
+                <string>S</string>
+                <key>LocateMethod</key>
+                <integer>2</integer>
+                <key>Path</key>
+                <string>realtime_mouth_close.png</string>
+                <key>AdditionalTexture</key>
+                <string>makeup4.png</string>
+                <key>ORGBA</key>
+                <string>22.4,0,0,0,255</string>
+                <key>Rectangle</key>
+                <string>360,795,291,132</string>
+                <key>FilterType</key>
+                <integer>56</integer>
+                <key>MUType</key>
+                <integer>1</integer>
+                <key>Operation</key>
+                <integer>7</integer>
+                <key>Gender</key>
+                <string>F</string>
+            </dict>
+
+	        <dict>
+		        <key>Type</key>
+		        <string>S</string>
+		        <key>LocateMethod</key>
+		        <integer>2</integer>
+		        <key>Path</key>
+		        <string>824_zcgg.png</string>
+		        <key>ORGBA</key>
+		        <string>60,0,0,0,255</string>
+		        <key>Rectangle</key>
+		        <string>428,815,159,88</string>
+		        <key>FilterType</key>
+	          <integer>2</integer>
+	          <key>MUType</key>
+	          <integer>1</integer>
+	          <key>Operation</key>
+	          <integer>0</integer>
+	          <key>Gender</key>
+                <string>F</string>
+	        </dict>		
+			
+            <!-- 滤镜 -->
+			<dict>
+                <key>Type</key>
+                <string>F</string>
+                <key>FilterType</key>
+                <integer>55</integer>
+                <key>ORGBA</key>
+                <string>100,0,0,0,255</string>
+                <key>AdditionalTexture</key>
+                <string>filter.png</string>
+            </dict>
+
+		</array>
+	</dict>
+</array>
+</plist>

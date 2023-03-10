@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+		<!-- 滤镜 -->
+			<dict>
+				<key>Type</key>
+				<string>F</string>
+				<key>FilterType</key>
+				<integer>55</integer>
+				<key>ORGBA</key>
+				<string>100,0,0,0,255</string>
+				<key>AdditionalTexture</key>
+				<string>guangyun.png</string>
+			</dict>
+		<!-- 光圈 -->
+			<dict>
+                <key>Type</key>
+                <string>LensFlare</string>
+                <key>FlareType</key>
+                <integer>0</integer>
+				<key>SunVideoInfo</key>
+				<string>1,3,2,2,90,0,0;</string>
+				<key>SunVideoPath</key>
+				<string>sun/sun_.png</string>
+				<key>SunVideoType</key>
+				<integer>4</integer>
+				<key>SunVideoFPS</key>
+				<integer>30</integer>
+				<key>RainbowVideoInfo</key>
+				<string>1,3,2,2,80,0,0;</string>
+				<key>RainbowVideoPath</key>
+				<string>ch/ch_.png</string>
+				<key>RainbowVideoType</key>
+				<integer>4</integer>
+				<key>RainbowVideoFPS</key>
+				<integer>30</integer>
+            </dict>
+         <!-- 唇彩 -->
+            <dict>
+                <key>Type</key>
+                <string>S</string>
+                <key>LocateMethod</key>
+                <integer>2</integer>
+                <key>Path</key>
+                <string>realtime_mouth_close.png</string>
+                <key>AdditionalTexture</key>
+                <string>makeup4.png</string>
+                <key>ORGBA</key>
+                <string>30,0,0,0,255</string>
+                <key>Rectangle</key>
+                <string>360,795,291,132</string>
+                <key>FilterType</key>
+                <integer>56</integer>
+                <key>MUType</key>
+                <integer>1</integer>
+                <key>Operation</key>
+                <integer>7</integer>
+				    <key>Gender</key>
+                <string>F</string>
+            </dict>			
+		</array>
+		<key>ID</key>
+		<integer>200004</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+	</dict>
+</array>
+</plist>

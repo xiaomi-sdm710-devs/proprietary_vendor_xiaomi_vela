@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+			
+
+            <!-- 廋脸配置-->
+
+<!--            <dict>
+                <key>Type</key><string>Facelift</string>
+                <key>FacemeshType</key><integer>2108</integer>
+                <key>FacemeshParameters</key><string>0.00,0.00,0.00,0.00,0.00;</string>
+                <key>ValueRange</key>
+                <string>0.0,0.15;</string>
+                <key>ControlPosition</key>
+                <string>3;</string>
+                <key>LiftControlType</key>
+                <integer>1</integer>
+            </dict>
+
+            <dict>
+                <key>Type</key><string>Facelift</string>
+                <key>FacemeshType</key><integer>2109</integer>
+                <key>FacemeshParameters</key><string>0.00,0.00,0.00,0.00;</string>
+                <key>LiftControlType</key>
+                <integer>1</integer>
+                <key>ValueRange</key>
+                <string>0.0,-0.5,0.0,0.38</string>
+                <key>ControlPosition</key>
+                <string>0,3</string>
+            </dict> -->
+
+            <dict>
+                <key>Type</key><string>FV_SPMLS</string>
+                <key>PointCount</key><integer>48</integer>
+                <key>OperationPath</key><string>operation_1.plist</string>
+                <key>VtDataPath</key><string>vt1.data</string>
+                <key>Degree</key><string>200</string>
+                <key>DegreeRange</key><string>0,200</string>
+                <key>LiftControlType</key><integer>1</integer>
+                <key>Power</key>
+                <string>1.0</string>
+                <key>ProtectedEdge</key>
+                <integer>1</integer>
+                <key>faceType</key>
+                <integer>1</integer>
+            </dict>
+            
+
+            <dict>
+                 <key>Type</key>
+                <string>Facelift</string>
+                <key>FacemeshType</key>
+                <string>2199</string>
+                <key>FacemeshParameters</key>
+                <string>0.38,0,0,0.74,0.62,0,0.71,0.76,0.47,0.61,0.44,0.44,0.47,0,0.47,0.44,0.44,0.61,0.47,0.76,0.71,0,0.62,0.74,0,0,-0.01,0,0.08,0.38,0,0.15,0.2,0.25,0.3,0.35,0.46,0.58,0,0.58,0.46,0.35,0.3,0.25,0.2,0.15,0,0.38,0.08,0,-0.01</string>
+                <key>ValueRange</key>
+                <string>0.0,0.38</string>
+                <key>ControlPosition</key>
+                <string>0</string>
+                <key>LiftControlType</key>
+                <integer>1</integer>
+                <key>Power</key>
+                <string>1</string>
+           
+            </dict>
+            <dict>
+                    <key>Type</key>
+                    <string>Facelift</string>
+                    <key>FacemeshType</key>
+                    <string>2109</string>
+                    <key>FacemeshParameters</key>
+                    <string>-0.22,0,0,0.9</string>
+                    <key>ValueRange</key>
+                    <string>0.0,-0.22,0.0,0.9</string>
+                    <key>ControlPosition</key>
+                    <string>0,3</string>
+                    <key>LiftControlType</key>
+                    <integer>1</integer>
+            </dict>
+            <dict>
+                    <key>Type</key>
+                    <string>Facelift</string>
+                    <key>FacemeshType</key>
+                    <string>2110</string>
+                    <key>FacemeshParameters</key>
+                    <string>0.28,0,0,1.0,0</string>
+                    <key>ValueRange</key>
+                    <string>0.0,0.28,0.0,1.0</string>
+                    <key>ControlPosition</key>
+                    <string>0,3</string>
+                    <key>LiftControlType</key>
+                    <integer>1</integer>
+                </dict>
+
+		
+
+		</array>
+		<key>ID</key>
+		<integer>200004</integer>
+		<key>Name</key>
+		<string>Unknown</string>
+	</dict>
+</array>
+</plist>

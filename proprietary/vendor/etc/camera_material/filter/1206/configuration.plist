@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+			
+		 <!-- 唇彩 -->
+            <dict>
+                <key>Type</key>
+                <string>S</string>
+                <key>LocateMethod</key>
+                <integer>2</integer>
+                <key>Path</key>
+                <string>realtime_mouth_close.png</string>
+                <key>AdditionalTexture</key>
+                <string>makeup5.png</string>
+                <key>ORGBA</key>
+                <string>35,0,0,0,255</string>
+                <key>Rectangle</key>
+                <string>360,795,291,132</string>
+                <key>FilterType</key>
+                <integer>56</integer>
+                <key>MUType</key>
+                <integer>1</integer>
+                <key>Operation</key>
+                <integer>7</integer>
+                <key>Gender</key>
+                <string>F</string>
+            </dict>
+			
+	        <dict>
+                <key>Type</key>
+                <string>F</string>
+                <key>FilterType</key>
+                <integer>50</integer>
+                <key>ORGBA</key>
+                <string>60,0,0,0,255</string>
+                <key>AdditionalTexture</key>
+                <string>filter.png</string>
+            </dict>	
+			
+			<dict>
+				<key>Type</key>
+				<string>CommonFilter</string>
+				<key>FilterPoolPath</key>
+				<string>filter/FilterPool.plist</string>
+				<key>FilterRulePath</key>
+				<string>filter/FilterRule.plist</string>
+			</dict>
+
+		</array>
+	</dict>
+</array>
+</plist>
