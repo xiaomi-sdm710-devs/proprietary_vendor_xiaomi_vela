@@ -2051,16 +2051,6 @@ PRODUCT_PACKAGES += \
     libsensorslog \
     libsnsapi \
     libssc \
-    android.hardware.camera.provider@2.4-external \
-    android.hardware.camera.provider@2.4-legacy \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-external-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-external-impl \
-    camera.device@3.5-impl \
-    camera.device@3.6-external-impl \
     com.qti.sensor.pyxis_imx586 \
     com.qti.sensor.pyxis_ov02a10 \
     com.qti.sensor.pyxis_s5k4h7 \
@@ -2102,7 +2092,6 @@ PRODUCT_PACKAGES += \
     com.vidhance.stats.aec_dmbr \
     com.visidon.node.sr \
     libcam_mttouchgamma \
-    android.hardware.camera.provider@2.4-impl \
     camera.qcom \
     com.qti.chi.override \
     libBlendScreen \
@@ -2149,8 +2138,6 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     libvidhance \
     vendor.meitu.hardware.camsys@1.0 \
-    vendor.qti.hardware.camera.device@2.0 \
-    vendor.qti.hardware.camera.device@3.5 \
     android.hardware.gatekeeper@1.0-impl-qti \
     fingerprint.goodix_fod.default \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
