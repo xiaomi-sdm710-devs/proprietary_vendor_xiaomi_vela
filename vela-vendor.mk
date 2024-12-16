@@ -1979,7 +1979,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vela/proprietary/vendor/etc/dsi_ss_ea8076_fhd_cmd_display_f3m_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_ss_ea8076_fhd_cmd_display_f3m_mi.xml \
     vendor/xiaomi/vela/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
     vendor/xiaomi/vela/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
-    vendor/xiaomi/vela/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/xiaomi/vela/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/vela/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/xiaomi/vela/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
@@ -2155,10 +2154,6 @@ PRODUCT_PACKAGES += \
     libarm_proxy_skel \
     libgf_hal \
     libhvx_proxy_stub \
-    libkeymasterdeviceutils \
-    libkeymasterprovision \
-    libkeymasterutils \
-    libqtikeymaster4 \
     libsensorcal \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
@@ -2186,7 +2181,6 @@ PRODUCT_PACKAGES += \
     misound_res \
     tas2560_TI_0 \
     android.hardware.gatekeeper@1.0-service-qti \
-    android.hardware.keymaster@4.0-service-qti \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
     init.qcom.sensors \
     sensors.qti
