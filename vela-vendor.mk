@@ -2158,7 +2158,6 @@ PRODUCT_PACKAGES += \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
-    libqcbor \
     libqtikeymaster4 \
     libsensorcal \
     libsns_device_mode_stub \
