@@ -2160,7 +2160,6 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_stub \
     libsnsdiaglog \
     libssc_default_listener \
-    libssccalapi \
     sensors.ssc \
     sensors.touch \
     vendor.qti.hardware.sensorscalibrate@1.0 \
